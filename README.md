@@ -17,12 +17,14 @@ Please note: this is a temporary quick-start guide, a more in-depth user guide w
 * LICENSE: the project's license
 * NOTICE: additional information on the used libraries
 
+## Building
+The TSE-simulator can be built using `mvn package`
+
 ## Libraries needed
 This project uses additional libraries that are not provided on this GitHub. 
 **The simulator will not work without these libraries!**
 They need to be downloaded and installed for the program to work properly.
 Note that the versions listed are the ones the program was developed with. 
-Later releases should work just as well.
 
 * The BouncyCastle Provider and Main Package: bcprov-jdk15on-161.jar
 * The BouncyCastle PKIX/CMS/EAC/DVCS/PKCS/TSP/OPENSSL Package: bcpkix-jdk15on-161.jar
